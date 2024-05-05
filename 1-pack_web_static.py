@@ -4,9 +4,10 @@ import os
 import datetime
 from fabric.api import local
 
+
 def do_pack():
     """
-    A script that generates an archive of the contents of the web_static folder.
+    A script that generates an archive of the contents of web_static folder
     It creates a timestamped filename and uses tar to create a .tgz archive.
     """
 
